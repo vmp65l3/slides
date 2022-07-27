@@ -1,5 +1,9 @@
 ///
+<<<<<<< HEAD
 /// Hyperspace by HTML5 UP
+=======
+/// Paradigm Shift by HTML5 UP
+>>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -7,6 +11,7 @@
 /* Row */
 
 	.row {
+<<<<<<< HEAD
 		@include html-grid(1.5em);
 
 		@include breakpoint('<=xlarge') {
@@ -27,5 +32,27 @@
 
 		@include breakpoint('<=xsmall') {
 			@include html-grid(1.5em, 'xsmall');
+=======
+		@include html-grid(2rem);
+
+		@include breakpoint('<=xlarge') {
+			@include html-grid(2rem, 'xlarge');
+		}
+
+		@include breakpoint('<=large') {
+			@include html-grid(1.5rem, 'large');
+		}
+
+		@include breakpoint('<=medium') {
+			@include html-grid(1.5rem, 'medium');
+		}
+
+		@include breakpoint('<=small') {
+			@include html-grid(1.25rem, 'small');
+		}
+
+		@include breakpoint('<=xsmall') {
+			@include html-grid(1.25rem, 'xsmall');
+>>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 		}
 	}
