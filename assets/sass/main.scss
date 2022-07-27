@@ -5,16 +5,9 @@
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
 @import 'fontawesome-all.min.css';
-<<<<<<< HEAD
 
 /*
 	Hyperspace by HTML5 UP
-=======
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800');
-
-/*
-	Paradigm Shift by HTML5 UP
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -22,22 +15,12 @@
 // Breakpoints.
 
 	@include breakpoints((
-<<<<<<< HEAD
 		xlarge:   ( 1281px,  1680px ),
 		large:    ( 981px,   1280px ),
 		medium:   ( 737px,   980px  ),
 		small:    ( 481px,   736px  ),
 		xsmall:   ( 361px,   480px  ),
 		xxsmall:  ( null,    360px  )
-=======
-		default:   (1681px,   null     ),
-		xlarge:    (1281px,   1920px   ),
-		large:     (1153px,   1280px   ),
-		medium:    (737px,    1152px   ),
-		small:     (481px,    736px    ),
-		xsmall:    (361px,    480px    ),
-		xxsmall:   (null,     360px    )
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 	));
 
 // Base.
@@ -51,16 +34,12 @@
 	@import 'components/row';
 	@import 'components/box';
 	@import 'components/button';
-<<<<<<< HEAD
 	@import 'components/features';
-=======
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 	@import 'components/form';
 	@import 'components/icon';
 	@import 'components/image';
 	@import 'components/list';
 	@import 'components/actions';
-<<<<<<< HEAD
 	@import 'components/contact';
 	@import 'components/icons';
 	@import 'components/menu';
@@ -77,14 +56,3 @@
 	@import 'layout/footer';
 	@import 'layout/sidebar';
 	@import 'layout/intro';
-=======
-	@import 'components/icons';
-	@import 'components/table';
-	@import 'components/arrow';
-	@import 'components/gallery';
-	@import 'components/feature-icons';
-
-// Layout.
-
-	@import 'layout/wrapper';
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac

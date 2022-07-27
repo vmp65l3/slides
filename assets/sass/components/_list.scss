@@ -1,9 +1,5 @@
 ///
-<<<<<<< HEAD
 /// Hyperspace by HTML5 UP
-=======
-/// Paradigm Shift by HTML5 UP
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -13,91 +9,34 @@
 	ol {
 		list-style: decimal;
 		margin: 0 0 _size(element-margin) 0;
-<<<<<<< HEAD
 		padding-left: 1.25em;
 
 		li {
 			padding-left: 0.25em;
-=======
-		padding-left: 1.25rem;
-
-		li {
-			padding-left: 0.25rem;
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 		}
 	}
 
 	ul {
 		list-style: disc;
 		margin: 0 0 _size(element-margin) 0;
-<<<<<<< HEAD
 		padding-left: 1em;
 
 		li {
 			padding-left: 0.5em;
-=======
-		padding-left: 1rem;
-
-		li {
-			padding-left: 0.325rem;
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 		}
 
 		&.alt {
 			list-style: none;
 			padding-left: 0;
 
-<<<<<<< HEAD
 			li {
 				border-top: solid _size(border-width) _palette(border);
 				padding: 0.5em 0;
-=======
-			> li {
-				border-top: solid 1px _palette(border);
-				padding: 0.75rem 0;
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 
 				&:first-child {
 					border-top: 0;
 					padding-top: 0;
 				}
-<<<<<<< HEAD
-=======
-
-				&:last-child {
-					padding-bottom: 0;
-				}
-			}
-		}
-
-		&.items {
-			list-style: none;
-			padding-left: 0;
-
-			> li {
-				padding-left: 0;
-				margin: 0 0 (_size(element-margin) * 1.5) 0;
-
-				> h3 {
-					margin: 0 0 (_size(element-margin) * 0.5) 0;
-				}
-
-				> :last-child {
-					margin-bottom: 0;
-				}
-
-				&:last-child {
-					margin-bottom: 0;
-				}
-			}
-		}
-
-		@include breakpoint('<=small') {
-			&.items {
-				> li {
-					margin: 0 0 (_size(element-margin) * 1) 0;
-				}
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 			}
 		}
 	}
@@ -112,10 +51,6 @@
 		}
 
 		dd {
-<<<<<<< HEAD
 			margin-left: _size(element-margin);
-=======
-			margin-left: (_size(element-margin) * 0.75);
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 		}
 	}

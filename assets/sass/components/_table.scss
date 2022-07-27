@@ -1,9 +1,5 @@
 ///
-<<<<<<< HEAD
 /// Hyperspace by HTML5 UP
-=======
-/// Paradigm Shift by HTML5 UP
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -21,11 +17,7 @@
 
 		tbody {
 			tr {
-<<<<<<< HEAD
 				border: solid _size(border-width) _palette(border);
-=======
-				border: solid 1px _palette(border);
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 				border-left: 0;
 				border-right: 0;
 
@@ -36,41 +28,23 @@
 		}
 
 		td {
-<<<<<<< HEAD
 			padding: 0.75em 0.75em;
-=======
-			padding: 0.75rem 0.75rem;
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 		}
 
 		th {
 			color: _palette(fg-bold);
-<<<<<<< HEAD
 			font-size: 1em;
 			font-weight: _font(weight-bold);
 			padding: 0 0.75em 0.75em 0.75em;
-=======
-			font-size: 0.9rem;
-			font-weight: _font(weight-bold);
-			padding: 0 0.75rem 0.75rem 0.75rem;
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 			text-align: left;
 		}
 
 		thead {
-<<<<<<< HEAD
 			border-bottom: solid (_size(border-width) * 2) _palette(border);
 		}
 
 		tfoot {
 			border-top: solid (_size(border-width) * 2) _palette(border);
-=======
-			border-bottom: solid 2px _palette(border);
-		}
-
-		tfoot {
-			border-top: solid 2px _palette(border);
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 		}
 
 		&.alt {
@@ -79,30 +53,18 @@
 			tbody {
 				tr {
 					td {
-<<<<<<< HEAD
 						border: solid _size(border-width) _palette(border);
-=======
-						border: solid 1px _palette(border);
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 						border-left-width: 0;
 						border-top-width: 0;
 
 						&:first-child {
-<<<<<<< HEAD
 							border-left-width: _size(border-width);
-=======
-							border-left-width: 1px;
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 						}
 					}
 
 					&:first-child {
 						td {
-<<<<<<< HEAD
 							border-top-width: _size(border-width);
-=======
-							border-top-width: 1px;
->>>>>>> d1d2dbe82d19253f2def47e9fcee3844cde23dac
 						}
 					}
 				}
